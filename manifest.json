@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Google Translate Helper",
+    "name": "Paper Tranlation Assistant",
     "version": "1.0",
     "description": "Translate selected text from a PDF using Google Translate (English to Korean).",
     "permissions": ["contextMenus", "activeTab", "clipboardRead"],
