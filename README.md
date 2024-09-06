@@ -7,3 +7,7 @@ Translate selected text using Google Translate (English to Korean) and pop-up th
 
 
 Shortcut: Ctrl+Shift+X
+
+
+## To-Do List
+- [ ] Make arXiv PDFs accessible via shortcut
