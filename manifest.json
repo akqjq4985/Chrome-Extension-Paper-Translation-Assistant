@@ -3,12 +3,21 @@
     "name": "Paper Tranlation Assistant",
     "version": "1.0",
     "description": "Translate selected text from a PDF using Google Translate (English to Korean).",
-    "permissions": ["contextMenus", "activeTab", "clipboardRead"],
+    "permissions": ["contextMenus", "activeTab", "clipboardRead", "commands", "scripting"],
     "background": {
       "service_worker": "background.js"
     },
     "action": {
       "default_popup": "popup.html"
+    },
+    "commands": {
+      "translate_shortcut": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+X",
+          "windows": "Ctrl+Shift+X"
+        },
+        "description": "Translate selected text"
+      }
     }
   }
   

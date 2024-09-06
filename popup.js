@@ -5,7 +5,7 @@ document.getElementById('translateButton').addEventListener('click', () => {
         let selectedText = selection[0];
         if (selectedText) {
             let url = `https://translate.google.com/?sl=en&tl=ko&text=${encodeURIComponent(selectedText)}&op=translate`;
-            chrome.tabs.create({ url: url });
+            chrome.windows.create({ url: url, type: 'popup', width: 800, height: 600 });
         } else {
             alert("No text selected.");
         }
