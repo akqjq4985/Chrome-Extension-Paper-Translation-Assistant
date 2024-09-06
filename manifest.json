@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Paper Tranlation Assistant",
+    "name": "Tranlation Assistant",
     "version": "1.0",
-    "description": "Translate selected text from a PDF using Google Translate (English to Korean).",
+    "description": "Translate selected text using Google Translate (English to Korean) and pop-up the translated result quickly. Shortcut: Ctrl+Shift+X",
     "permissions": ["contextMenus", "activeTab", "clipboardRead", "commands", "scripting"],
     "background": {
       "service_worker": "background.js"
